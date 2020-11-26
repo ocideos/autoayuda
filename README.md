@@ -36,15 +36,8 @@ In order for the module to run properly the following depdendencies are required
 6 - Inside the previous folder upgrade pip and install all PiP applications:
 
     ~: pip install --upgrade pip
-
-    Packages can be installed automatically:
-
-    ~: pip install -r requirements.txt
-
-    or independently:
-
-    ~: pip install zoomus
-    ~: pip install gcsa
+    ~: pip install git+https://github.com/ocideos/zoomus.git
+    ~: pip install git+https://github.com/ocideos/google-calendar-simple-api.git
 
 # Credits
 - zoomus for their great videocall platform
